@@ -22,7 +22,7 @@ const Navbar = () => {
             <img
               src={location.pathname !== "/" ? SecondLogo : Logo}
               alt="Segun Olowoyeye"
-              className="w-[121px]"
+              className="w-[121px] p-5"
             />
           </Link>
         </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
           <button
             onClick={toggleMenu}
             className={`text-${
-              location.pathname !== "/" ? "darkBlue" : "text-white"
+              location.pathname !== "/" ? "darkBlue" : "white"
             } `}
           >
             {menuOpen ? (

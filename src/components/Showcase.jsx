@@ -6,7 +6,7 @@ const Showcase = () => {
     <div className="nav-bar w-full h-full">
       <main className="show grid grid-cols-1 md:grid-cols-2 gap-4 p-6 ml-0 md:ml-10">
         <div className=" flex flex-col text-darkBlue mb-12 mt-1 md:mt-40">
-          <h1 className="text-4xl font-bold text-navColor">
+          <h1 className="text-5xl font-bold text-navColor">
             Frontend Developer.
           </h1>
           <p className="max-w-full mt-10  font-light text-[15px] text-white">
