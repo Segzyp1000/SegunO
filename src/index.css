@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   font-family: serif;
+    font-weight: 700;
+}
+
+.nav-bar {
+  background: url('../src/assets/bgNav.png')center center /cover no-repeat;
+  width: 100%;
+}
+  
+  .separator {
+    position: relative;
+    top: -1px;
+    margin-top: 2rem;
+    left: 0;
+    width: 75%;
+    height: 1px;
+    background-color:  #0C4A60;
+  }
+  
+  .separator2 {
+    position: relative;
+    top: -1px;
+    margin-top: 2rem;
+    left: 0;
+    width: auto;
+    height: 1px;
+    background-color: #ddd;
+  }
+
+  
+  
+  
+  @media (max-width: 768px) {
+    .show {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    
+  }
+  
