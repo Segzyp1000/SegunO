@@ -11,7 +11,7 @@ const Project = () => {
     <div className="bg-white text-4xl  text-black mt-2 mb-12 p-4">
       <div className="mt-20 flex flex-col justify-center items-center text-center ">
         <h1 className="text-[15px] font-bold flex flex-start">
-          Some of the project I have worked on
+          Some of the project I have worked on:
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
           <div className="mt-10 mb-4 p-5 flex flex-wrap justify-center items-center text-sm space-x-2  rounded-lg shadow-2xl w-auto overflow-hidden">
@@ -51,7 +51,8 @@ const Project = () => {
             </a>
             <div className="flex flex-col items-center mt-5 w-3/4">
               <p className="text-black">
-                Built Lendsqr dashboard replica with React, TypeScript, and SCSS
+                Built Lendsqr dashboard replica with React, TypeScript, and
+                SCSS.
               </p>
 
               <a
@@ -77,7 +78,7 @@ const Project = () => {
             <div className="flex flex-col items-center w-3/4 mt-5">
               <p className="text-black">
                 Developed a responsive e-commerce site with React and Tailwind
-                CSS
+                CSS.
               </p>
 
               <a
@@ -103,7 +104,7 @@ const Project = () => {
             <div className="flex flex-col items-center w-3/4 mt-5">
               <p className="text-black">
                 Developed a movie website with React, Tailwind CSS, and
-                Firebase, demonstrating full-stack skills
+                Firebase, demonstrating full-stack skills.
               </p>
 
               <a
@@ -128,9 +129,8 @@ const Project = () => {
             </a>
             <div className="flex flex-col items-center w-3/4 mt-5">
               <p className="text-black">
-                Designed and developed a responsive banana bread ordering
-                website, implementing Context API for efficient state management
-                and ensuring a smooth user interface
+                Built a responsive banana bread ordering site with Context API
+                for state management and a smooth UI.
               </p>
 
               <a
@@ -155,9 +155,9 @@ const Project = () => {
             </a>
             <div className="flex flex-col justify-center items-center w-3/4 mt-5">
               <p className="text-black">
-                Developed a transport logistics website replica with Tailwind,
-                HTML, CSS, and JavaScript, demonstrating my skills in building
-                responsive, dynamic, and modern web applications
+                Built a transport logistics website replica using React,
+                Tailwind, HTML, and CSS, showcasing responsive and dynamic web
+                development skills.
               </p>
 
               <a
