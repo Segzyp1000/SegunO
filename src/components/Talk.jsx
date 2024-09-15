@@ -12,7 +12,7 @@ function Talk() {
         <div>
           <a
             href="https://mail.google.com/mail/u/0/#inbox?compose=new"
-            className="text-darkBlue rounded-xl font-light bg-white p-2"
+            className="text-darkBlue rounded-xl font-light bg-white p-2 hover:bg-slate-700 hover:text-white"
           >
             Let's talk
           </a>
