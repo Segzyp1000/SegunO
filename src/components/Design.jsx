@@ -19,7 +19,7 @@ function Design() {
           <h1 className="text-4xl text-darkBlue underline font-bold font-lg">
             Development.
           </h1>
-          <p className="w-3/4 text-[15px] font-medium">
+          <p className="text-[15px] font-medium">
             In building applications, i utilize but not limited to tools like
             Javascript, Typescript, Git, Github, CSS, Html, Tailwind, Bootstrap
             ReactJs , SCSS among others. I can absolutely function independently

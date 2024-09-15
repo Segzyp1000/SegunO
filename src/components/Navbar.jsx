@@ -55,11 +55,11 @@ const Navbar = () => {
           </button>
         </div>
         {menuOpen && (
-          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-9 md:space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[457px]">
+          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-12 md:space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[557px]">
             <Link
               to="/project"
               onClick={toggleMenu}
-              className="hover:text-blue-900"
+              className="hover:text-blue-900 py-7"
             >
               Portfolio
             </Link>
@@ -77,7 +77,6 @@ const Navbar = () => {
             <a href="mailto:segunolowoyeye@gmail.com">
               segunolowoyeye@gmail.com
             </a>
-
             <a href="https://wa.link/aozrti" className="text-slate-500">
               https://wa.link/aozrti
             </a>
