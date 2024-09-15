@@ -1,11 +1,11 @@
-// Here's the complete code with the new solution:
-
-// jsx
 import React, { useState } from "react";
 import { FaX } from "react-icons/fa6";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "../assets/SEGUN.png";
-import SecondLogo from "../assets/SEGUN (1).png"; // replace with your actual logo import
+import SecondLogo from "../assets/SEGUN (1).png";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,8 +55,12 @@ const Navbar = () => {
           </button>
         </div>
         {menuOpen && (
-          <div className="fixed right-0 top-[15px] flex flex-col mt-10 bg-white p-5 space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[172px]">
-            <Link to="/project" onClick={toggleMenu}>
+          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-9 md:space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[457px]">
+            <Link
+              to="/project"
+              onClick={toggleMenu}
+              className="hover:text-blue-900"
+            >
               Portfolio
             </Link>
             <a
@@ -68,6 +72,36 @@ const Navbar = () => {
             >
               Resume
             </a>
+            <h1 className="text-gray-300 text-3xl">TALK TO ME 😀</h1>
+
+            <a href="mailto:segunolowoyeye@gmail.com">
+              segunolowoyeye@gmail.com
+            </a>
+
+            <a href="https://wa.link/aozrti" className="text-slate-500">
+              https://wa.link/aozrti
+            </a>
+            <div className="flex space-x-5 text-darkBlue">
+              <a
+                href="https://www.linkedin.com/in/segun-olowoyeye-04909b76/"
+                className="hover:text-slate-500"
+              >
+                <FaLinkedinIn />
+              </a>
+
+              <a
+                href="https://x.com/segzyp1000"
+                className="hover:text-slate-500"
+              >
+                <FaXTwitter />
+              </a>
+              <a
+                href="https://github.com/Segzyp1000"
+                className="hover:text-slate-500"
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         )}
       </nav>

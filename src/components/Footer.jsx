@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -8,7 +11,7 @@ function Footer() {
         <div className="mx-12 p-12">
           <h1 className="text-3xl">TALK TO ME 😀</h1>
           <a
-            href="https://mail.google.com/mail/u/0/"
+            href="mailto:segunolowoyeye@gmail.com"
             className="text-navColor hover:text-slate-500"
           >
             segunolowoyeye@gmail.com
@@ -28,13 +31,16 @@ function Footer() {
             href="https://www.linkedin.com/in/segun-olowoyeye-04909b76/"
             className="hover:text-slate-500"
           >
-            LN
+            <FaLinkedinIn />
           </a>
           <a href="https://x.com/segzyp1000" className="hover:text-slate-500">
-            X
+            <FaXTwitter />
           </a>
-          <a href="#" className="hover:text-slate-500">
-            GH
+          <a
+            href="https://github.com/Segzyp1000"
+            className="hover:text-slate-500"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>
