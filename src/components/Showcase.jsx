@@ -3,7 +3,7 @@ import segz from "../assets/seg.png";
 
 const Showcase = () => {
   return (
-    <div className="nav-bar w-full h-full">
+    <div className="nav-bar w-full h-full fade-in">
       <main className="show grid grid-cols-1 md:grid-cols-2 gap-4 p-6 ml-0 md:ml-10">
         <div className=" flex flex-col text-darkBlue mb-12 mt-1 md:mt-40">
           <h1 className="text-5xl font-bold text-navColor">

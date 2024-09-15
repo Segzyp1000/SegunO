@@ -11,7 +11,7 @@ function Talk() {
         </div>
         <div>
           <a
-            href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+            href="mailto:segunolowoyeye@gmail.com"
             className="text-darkBlue rounded-xl font-light bg-white p-2 hover:bg-slate-700 hover:text-white"
           >
             Let's talk

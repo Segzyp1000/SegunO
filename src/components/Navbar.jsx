@@ -15,7 +15,7 @@ const Navbar = () => {
   const location = useLocation();
 
   return (
-    <div className="w-full z-[100] absolute">
+    <div className="w-full z-[100] absolute fade-in">
       <nav className="flex justify-between mx-4 md:mx-12 p-5 md:flex-row md:items-center">
         <div className="flex space-x-2">
           <Link to="/">
@@ -31,7 +31,7 @@ const Navbar = () => {
             onClick={toggleMenu}
             className={`text-${
               location.pathname !== "/" ? "darkBlue" : "white"
-            } `}
+            } menu-button ${menuOpen ? "rotate" : ""}`}
           >
             {menuOpen ? (
               <FaX />
@@ -55,7 +55,7 @@ const Navbar = () => {
           </button>
         </div>
         {menuOpen && (
-          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-12 md:space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[557px]">
+          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-12 md:space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[557px] faded-in">
             <Link
               to="/project"
               onClick={toggleMenu}
@@ -109,13 +109,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// And the CSS:
-
-// .bg-darkBlue {
-//   background-color: #032B44; /* or any other dark blue color you prefer */
-// }
-
-// .menu-icon-color-change {
-//   stroke: white;
-// }

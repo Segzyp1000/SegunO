@@ -30,15 +30,24 @@ function Footer() {
           <a
             href="https://www.linkedin.com/in/segun-olowoyeye-04909b76/"
             className="hover:text-slate-500"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedinIn />
           </a>
-          <a href="https://x.com/segzyp1000" className="hover:text-slate-500">
+          <a
+            href="https://x.com/segzyp1000"
+            className="hover:text-slate-500"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaXTwitter />
           </a>
           <a
             href="https://github.com/Segzyp1000"
             className="hover:text-slate-500"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <FaGithub />
           </a>

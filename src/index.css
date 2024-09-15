@@ -12,7 +12,63 @@ body {
   background: url('../src/assets/bgNav.png')center center /cover no-repeat;
   width: 100%;
 }
-  
+
+
+.fade-in {
+  animation: fadeIn ease-out 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.faded-in {
+  animation: fadeIn ease-out 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+.menu-button {
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-button.rotate {
+  transform: rotate(7deg);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+
+
   .separator {
     position: relative;
     top: -1px;
