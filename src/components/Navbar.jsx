@@ -65,7 +65,7 @@ const Navbar = () => {
             </Link>
             <a
               onClick={toggleMenu}
-              href="https://drive.google.com/file/d/1vfQFM1Xdf_cd6Qf2p004iBPWauliVyVQ/view"
+              href="https://drive.google.com/file/d/1j53bCnrgLrWE_xJBg4bUZ6ld_P84zEzo/view?usp=drivesdk"
               className="text-white bg-blue-500 p-2 rounded-lg hover:bg-slate-400 flex justify-center"
               target="_blank"
               rel="noopener noreferrer"
