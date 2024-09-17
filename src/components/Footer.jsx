@@ -24,7 +24,7 @@ function Footer() {
         </div>
       </div>
       <div className="separator2 mx-20 text-navColor"></div>
-      <div className="md:flex flex-wrap justify-between items-center mx-20 mt-10">
+      <div className="md:flex flex-wrap justify-between md:space-y-0 space-y-5 items-center mx-20 mt-10">
         <h1 className="text-navColor">Segun Olowoyeye 2024</h1>
         <div className="flex space-x-5 text-navColor">
           <a

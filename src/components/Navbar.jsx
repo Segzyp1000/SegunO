@@ -55,11 +55,11 @@ const Navbar = () => {
           </button>
         </div>
         {menuOpen && (
-          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-12 md:space-y-5 text-black font-bold md:w-80 w-full md:h-auto h-[557px] faded-in">
+          <div className="fixed right-0 top-[15px] flex flex-col mt-12 bg-white p-5 space-y-12 md:space-y-7 text-black font-bold md:w-80 w-full md:h-auto h-[557px] faded-in">
             <Link
               to="/project"
               onClick={toggleMenu}
-              className="hover:text-blue-900 py-7"
+              className="hover:text-blue-900 py-5"
             >
               Portfolio
             </Link>

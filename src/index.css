@@ -15,7 +15,7 @@ body {
 
 
 .fade-in {
-  animation: fadeIn ease-out 3s;
+  animation: fadeIn ease-out 1s;
 }
 
 @keyframes fadeIn {
@@ -35,7 +35,7 @@ body {
 
 
 .faded-in {
-  animation: fadeIn ease-out 1s;
+  animation: fadeIn ease-out 2s;
 }
 
 @keyframes fadeIn {
