@@ -27,7 +27,7 @@ const Showcase = () => {
           </div>
         </div>
 
-        <div className="flex md:mx-3 p-5 max-w-full h-full justify-center items-center mt-10">
+        <div className="flex md:mx-3 p-5 max-w-full h-full justify-center items-center mt-20 md:mt-10">
           <img src={segz} alt="" className="w-[321px] lg:w-[521px]" />
         </div>
       </main>

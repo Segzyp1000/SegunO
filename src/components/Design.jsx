@@ -3,7 +3,7 @@ import React from "react";
 function Design() {
   return (
     <div className="bg-white md:flex flex-col p-5 space-y-5">
-      <div className="flex flex-col w-full lg:w-[50%] ml-0 lg:ml-[500px] xl:ml-[700px] 2xl:ml-[900px]">
+      <div className="flex flex-col max-w-full lg:w-[50%] ml-0 lg:ml-[500px] xl:ml-[700px] 2xl:ml-[900px]">
         <h1 className="text-3xl underline font-bold font-lg text-darkBlue">
           Design.
         </h1>
@@ -15,7 +15,7 @@ function Design() {
         </p>
       </div>
 
-      <div className="flex flex-col w-full lg:w-[50%] ml-1 lg:ml-12 ">
+      <div className="flex flex-col max-w-full lg:w-[50%] ml-1 lg:ml-12 ">
         <h1 className="text-3xl underline font-bold font-lg text-darkBlue">
           Development.
         </h1>
