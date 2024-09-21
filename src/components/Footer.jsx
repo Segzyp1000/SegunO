@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <div className="bg-darkBlue text-white ">
-      <div className="md:flex flex-wrap justify-between items-center mx-20">
+      <div className="flex-col justify-between items-center mx-20">
         <div className="py-5">
           <h1 className="text-3xl">TALK TO ME 😀</h1>
           <a

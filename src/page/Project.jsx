@@ -23,13 +23,15 @@ const Project = () => {
 
   return (
     <div data-aos="fade-up" data-aos-duration="1000">
-      <div className="bg-white text-4xl  text-black mt-2 mb-12 p-4">
-        <div className="mt-20 flex flex-col justify-center items-center text-center ">
-          <h1 className="text-[15px] font-bold flex flex-start">
-            Some of the project I have worked on:
-          </h1>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
-            <div className="mt-10 mb-4 p-5 flex flex-wrap justify-center items-center text-sm space-x-2  rounded-lg shadow-2xl w-auto overflow-hidden">
+      <div className="container bg-white text-4xl  text-black mt-2 mb-12 p-4 w-3/4">
+        <div className="mt-20 flex flex-col">
+          <div>
+            <h1 className="text-[15px] font-bold text-center">
+              Some of the project I have worked on:
+            </h1>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5  place-content-center">
+            <div className="mt-10 mb-4 p-5 flex flex-wrap justify-center items-center text-sm rounded-lg shadow-2xl w-auto overflow-hidden">
               <a
                 href="https://seg-barb-show-8myq.vercel.app/"
                 target="_blank"

@@ -11,6 +11,9 @@ module.exports = {
         colorButton: "#E1DDDB",
         navColor: "#72FFFF"
       },
+      container: {
+        center: true,
+      },
     },
   },
   plugins: [],
