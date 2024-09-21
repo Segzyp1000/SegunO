@@ -7,7 +7,7 @@ function Design() {
         <h1 className="text-3xl underline font-bold font-lg text-darkBlue">
           Design.
         </h1>
-        <p className="text-[23px] lg:text-[17px] xl:text-[25px] font-medium w-4/5 text-black">
+        <p className="text-[23px] lg:text-[17px] xl:text-[25px]  from-neutral-950 w-full lg:w-4/5 text-black">
           Frequent times i find myself putting texts and shapes together to born
           out a pleasing UI like the one you are going through right now. I
           utilize tools like Figma, Adobe XD and Corel draw for various design
@@ -19,7 +19,7 @@ function Design() {
         <h1 className="text-3xl underline font-bold font-lg text-darkBlue">
           Development.
         </h1>
-        <p className="text-[23px] lg:text-[17px] xl:text-[25px]  font-medium w-4/5 text-black">
+        <p className="text-[23px] lg:text-[17px] xl:text-[25px] from-neutral-950 w-full lg:w-4/5 text-black">
           In building applications, i utilize but not limited to tools like
           Javascript, Typescript, Git, Github, CSS, Html, Tailwind, Bootstrap
           ReactJs , SCSS among others. I can absolutely function independently
